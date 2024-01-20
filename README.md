@@ -43,10 +43,7 @@ Java provides four access modifiers: public, private, protected, and default (no
 They control the visibility and accessibility of classes, methods, and variables.
 13. What is encapsulation in Java?
 Encapsulation is the process of hiding internal details and providing a public interface to 
-interact with an object. It helps in achieving data abstraction and protects data from 
-
-
-unauthorized access.
+interact with an object. It helps in achieving data abstraction and protects data from unauthorized access.
 14. What is a constructor in Java?
 A constructor in Java is a special method that is used to initialize objects of a class. It is 
 called automatically when an object is created and has the same name as the class.
@@ -73,8 +70,6 @@ namespace and helps in avoiding naming conflicts.
 An abstract class can have both abstract and non-abstract methods and can be 
 extended by other classes, while an interface only contains abstract method 
 declarations and can be implemented by classes.
-
-
 21. What is a static method in Java?
 A static method in Java is a method that belongs to the class rather than an instance of 
 the class. It can be called without creating an object of the class.
@@ -102,8 +97,6 @@ access instance variables, call instance methods, or invoke constructors.
 A static variable in Java is a variable that belongs to the class rather than an instance of 
 the class. It is shared among all instances of the class.
 28. What is the purpose of the "final" keyword in method parameters?
-
-
 The "final" keyword in method parameters is used to make the parameter value 
 unchangeable within the method. It ensures that the parameter cannot be reassigned or 
 modified.
@@ -132,8 +125,6 @@ multiple threads to ensure that only one thread can access a shared resource or 
 block at a time.
 35. What is the difference between the "synchronized" block and the "synchronized" 
 method?
-
-
 A "synchronized" block in Java allows a specific block of code to be synchronized, 
 ensuring that only one thread can execute it at a time. A "synchronized" method applies 
 synchronization to the entire method, making it mutually exclusive for all threads.
@@ -162,8 +153,6 @@ perform cleanup operations.
 The "throw" keyword in Java is used to manually throw an exception, while the "throws" 
 keyword is used in method declarations to specify that the method may throw certain 
 types of exceptions.
-
-
 42. What is the difference between checked exceptions and runtime exceptions?
 Checked exceptions are checked at compile-time and must be handled or declared, 
 while runtime exceptions (unchecked exceptions) are not required to be handled or 
@@ -191,8 +180,6 @@ A shallow copy creates a new object that shares the same references as the origi
 object, while a deep copy creates a new object and recursively copies all the referenced 
 objects as well, resulting in separate copies.
 48. What is a lambda expression in Java?
-
-
 A lambda expression in Java is an anonymous function that can be used to simplify the 
 syntax of functional interfaces. It allows for more concise and readable code, especially 
 when working with functional programming constructs.
@@ -221,8 +208,6 @@ strings, or standard input.
 The "StringBuilder" class in Java is used to create and manipulate mutable sequences of 
 characters. It is more efficient than concatenating strings using the "+" operator, as it 
 avoids unnecessary object creations.
-
-
 55. What is the difference between the "Comparable" and "Comparator" interfaces?
 The "Comparable" interface is used to define a natural ordering for a class by 
 implementing the "compareTo()" method. The "Comparator" interface, on the other 
@@ -250,8 +235,6 @@ The "strictfp" keyword in Java is used to ensure strict adherence to the IEEE 75
 for floating-point calculations. It ensures consistent results across different platforms by 
 disabling some optimizations that can affect precision.
 61. What is the difference between a public class and a default (package-private) class?
-
-
 A public class in Java can be accessed from any other class, regardless of the package 
 they belong to. A default class, also known as a package-private class, is only accessible 
 within the same package and cannot be accessed from outside the package.
@@ -280,8 +263,6 @@ The pre-decrement operator (--i) in Java decrements the value of a variable and
 returns the decremented value, while the post-decrement operator (i--) decrements the 
 value of a variable but returns the original value before the decrement.
 68. What is the purpose of the "Math" class in Java?
-
-
 The "Math" class in Java provides various methods for performing common 
 mathematical operations, such as square roots, trigonometric functions, exponential 
 calculations, rounding, and more.
@@ -310,8 +291,6 @@ performing arithmetic operations, and converting doubles to different representa
 The "System" class in Java provides access to system resources and allows interaction 
 with the system environment. It contains methods for standard input/output, error 
 output, current time, copying arrays, and more.
-
-
 75. What is the purpose of the "File" class in Java?
 The "File" class in Java is used to represent and manipulate file and directory paths. It 
 provides methods for creating, deleting, renaming, and querying file properties such as 
@@ -340,8 +319,6 @@ represent a valid number.
 81. What is the purpose of the "StringBuilder" class in Java?
 The "StringBuilder" class in Java is used to create and manipulate mutable sequences of 
 characters. It provides methods for appending, inserting, deleting, and modifying 
-
-
 character sequences efficiently.
 82. What is the purpose of the "HashSet" class in Java?
 The "HashSet" class in Java is an implementation of the Set interface that stores unique 
@@ -368,8 +345,6 @@ The "super" keyword in Java is used to refer to the superclass of a class or to 
 superclass's constructor, methods, or variables. It is primarily used to differentiate 
 between superclass and subclass members with the same name.
 88. What is the purpose of the "this" keyword in Java?
-
-
 The "this" keyword in Java is used to refer to the current instance of a class. It is primarily 
 used to differentiate between instance variables and parameters or to invoke other 
 constructors within a class.
@@ -398,8 +373,6 @@ naming conflicts between classes.
 The "import" keyword in Java is used to import classes, interfaces, or packages into a 
 source file. It allows using classes from other packages without specifying their fully 
 qualified names.
-
-
 95. What is the purpose of the "throw" keyword in Java?
 The "throw" keyword in Java is used to manually throw an exception. It is typically used 
 when a program encounters an error or exceptional situation that cannot be handled, 
