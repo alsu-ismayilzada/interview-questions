@@ -398,3 +398,31 @@ switch statement.
 The "continue" statement in Java is used to skip the current iteration of a loop and 
 continue with the next iteration. It allows skipping certain iterations based on speciﬁc 
 conditions without exiting the loop entirely.
+101. Goal of maven
+Install
+Packet
+Compile
+Test
+102. Range of char
+0 to 65,535
+103. Witch package contain jdbc classes in java
+java.sql , javax.sql
+104. Functional interface
+It contains only one abstract method. They can have any number defaoult methods. For example:
+Runnable –> This interface only contains the run() method.
+Comparable –> This interface only contains the compareTo() method.
+ActionListener –> This interface only contains the actionPerformed() method.
+Callable –> This interface only contains the call() method.
+@FunctionalInterface annotation
+The java.util.function package contains many built-in functional interfaces in Java 8.
+Java SE 8 included four main kinds of functional interfaces which can be applied in multiple situations as mentioned below:
+Consumer - Consumer<Integer> consumer = (value) -> System.out.println(value)
+Predicate – boolean test(T t)
+Function – 
+public interface BiFunction<T, U, R> 
+{  R apply(T t, U u); ....}
+
+Supplier - 
+105.	What is Maker Interface
+Marker interfaces are interfaces that don't have fields, methods, or constants. In other terms, a marker interface or tag interface is an empty interface.   Examples of marker interface are Serializable, Cloneable and Remote interface.
+
