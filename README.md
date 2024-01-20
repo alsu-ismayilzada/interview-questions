@@ -399,10 +399,7 @@ The "continue" statement in Java is used to skip the current iteration of a loop
 continue with the next iteration. It allows skipping certain iterations based on speciﬁc 
 conditions without exiting the loop entirely.
 101. Goal of maven: 
-Install
-Packet
-Compile
-Test 
+Install , Packet , Compile , Test
 102. Range of char ?
 0 to 65,535
 104. Witch package contain jdbc classes in java ?
