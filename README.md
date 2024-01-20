@@ -1,4 +1,3 @@
-# interview-questions
 1. What is Java?
 Java is a high-level, object-oriented programming language that is widely used for 
 developing a variety of applications, including web, desktop, and mobile applications.
@@ -18,15 +17,6 @@ checking.
 In Java, a class is a blueprint or template for creating objects. It defines the properties 
 (attributes) and behaviors (methods) that objects of that class can have.
 6. What is an object in Java?
-
-100 Most Asked
-Java Interview QnA 
-Yadneyesh (Curious Coder)
-CodWithCurious.com
-
-Made By:
-
-
 An object in Java is an instance of a class. It represents a specific entity or item that can 
 have its own set of attributes and behaviors defined by its class.
 7. What is a method in Java?
