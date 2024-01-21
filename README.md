@@ -423,3 +423,31 @@ Supplier -
 105.	What is Maker Interface?
 Marker interfaces are interfaces that don't have fields, methods, or constants. In other terms, a marker interface or tag interface is an empty interface.   Examples of marker interface are Serializable, Cloneable and Remote interface.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Java Web Fundamentals:
+
+* What are the main technologies used to develop Java web applications (e.g., servlets, JSPs, frameworks)?
+* How does the request-response cycle work in a Java web application?
+* What are the best practices for handling user input and session management in Java web applications?
+* How can you secure your Java web application against common vulnerabilities?
+
+## Java Web Frameworks:
+
+* Compare and contrast popular Java web frameworks like Spring MVC, Struts, and JSF.
+* What are the benefits and drawbacks of using a Java web framework for your project?
+* How can you implement dependency injection in your Java web application using a framework?
+* How do you handle database interactions in a Java web application using a framework like Hibernate?
+
+## Performance and Best Practices:
+
+* What are some techniques for optimizing the performance of a Java web application?
+* How can you monitor and troubleshoot issues in a Java web application in production?
+* What are some best practices for testing and deploying Java web applications?
+* How can you implement caching and load balancing in your Java web application?
+
+## Advanced Topics:
+
+* What are microservices and how can they be used in Java web development?
+* How can you build RESTful APIs using Java and a web framework?
+* What are the security considerations when building web applications with Java and Spring Security?
+* How can you implement CI/CD pipelines for your Java web applications?
